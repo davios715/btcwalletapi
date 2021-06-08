@@ -2,7 +2,7 @@ package walletapi
 
 import (
 	"bytes"
-	"crytowallet/http/response"
+	"btcwalletapi/http/response"
 	"encoding/json"
 	"github.com/stretchr/testify/assert"
 	"net/http/httptest"

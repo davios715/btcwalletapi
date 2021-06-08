@@ -1,9 +1,9 @@
 package walletapi
 
 import (
-	"crytowallet/cryto/multisig"
-	"crytowallet/http/request"
-	"crytowallet/http/response"
+	"btcwalletapi/cryto/multisig"
+	"btcwalletapi/http/request"
+	"btcwalletapi/http/response"
 	"encoding/json"
 	"log"
 	"net/http"

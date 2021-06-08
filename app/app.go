@@ -1,8 +1,8 @@
 package app
 
 import (
-	"crytowallet/config"
-	btcwalletapi "crytowallet/routes/btc/walletapi"
+	"btcwalletapi/config"
+	"btcwalletapi/routes/btc/walletapi"
 	"fmt"
 	"log"
 	"net/http"
@@ -46,7 +46,7 @@ func (a *App) Init(){
 
 func (a *App) register(){
 	// Register wallet api
-	var api = btcwalletapi.BTCWalletAPI{}
+	var api = walletapi.BTCWalletAPI{}
 	api.Register(a)
 }
 

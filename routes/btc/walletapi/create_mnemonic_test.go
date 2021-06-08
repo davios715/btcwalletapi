@@ -1,7 +1,7 @@
 package walletapi
 
 import (
-	"crytowallet/http/response"
+	"btcwalletapi/http/response"
 	"encoding/json"
 	"github.com/stretchr/testify/assert"
 	"github.com/tyler-smith/go-bip39"

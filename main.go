@@ -1,7 +1,7 @@
 package main
 
 import (
-	"crytowallet/app"
+	"btcwalletapi/app"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module crytowallet
+module btcwalletapi
 
 go 1.13
 

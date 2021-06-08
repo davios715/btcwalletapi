@@ -1,8 +1,8 @@
 package walletapi
 
 import (
-	"crytowallet/cryto/mnemonic"
-	"crytowallet/http/response"
+	"btcwalletapi/cryto/mnemonic"
+	"btcwalletapi/http/response"
 	"encoding/json"
 	"log"
 	"net/http"
